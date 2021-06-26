@@ -156,9 +156,7 @@ address {
   padding-bottom: 32px;
   color: var(--text-title-color);
 
-  transition-property: color, background-color;
-  text-decoration: var(--tran-duration);
-  transition-timing-function: var(--tran-time-func);
+  transition: color var(--animation), background-color var(--animation);
 }
 
 .site-nav .link:hover,
