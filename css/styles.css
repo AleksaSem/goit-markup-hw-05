@@ -625,6 +625,8 @@ address {
   background: var(--white-color);
   border-radius: 50%;
   fill: #afb1b8;
+
+  transition: background-color var(--animation), fill var(--animation);
 }
 
 .team-social-link:hover,
